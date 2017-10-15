@@ -15,7 +15,7 @@ var ts = require('gulp-typescript');
 
 gulp.task('default', function(){
     // TODO: automatically loop through all gulp.tasks and output them to the log when gulp is called by the user
-    console.log('Welcome to Gulp. Available commands: test, hey');
+    console.log('Welcome to Gulp. Available commands: ... ');
 });
 
 gulp.task('test', function(){
@@ -26,4 +26,8 @@ gulp.task('compile-sass', function(){
     return gulp.src('sass/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('css'));
+});
+
+gulp.task('compile-ts', function(){
+    console.log('sup');
 });
