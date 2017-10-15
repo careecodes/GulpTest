@@ -29,5 +29,7 @@ gulp.task('compile-sass', function(){
 });
 
 gulp.task('compile-ts', function(){
-    console.log('sup');
+    return gulp.src('javascript/*.ts')
+    .pipe(ts())
+    .pipe(gulp.dest('javascript'));
 });
