@@ -11,3 +11,7 @@ var gulp = require('gulp');
 gulp.task('default', function(){
     console.log('ayyyy');
 });
+
+gulp.task('test', function(){
+    console.log('Gulp is working');
+});
