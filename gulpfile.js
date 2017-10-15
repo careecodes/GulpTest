@@ -15,21 +15,19 @@ var ts = require('gulp-typescript');
 
 gulp.task('default', function(){
     // TODO: automatically loop through all gulp.tasks and output them to the log when gulp is called by the user
+    // TODO: Add more informative output here
     console.log('sup');
 });
-
-gulp.task('test', function(){
-    console.log('Gulp is working');
-});
-
 gulp.task('compile-sass', function(){
     return gulp.src('sass/*.scss')
+    // TODO: sass error handling?
     .pipe(sass())
     .pipe(gulp.dest('css'));
 });
 
 gulp.task('compile-ts', function(){
     return gulp.src('javascript/*.ts')
+    // TODO: ts error handling?
     .pipe(ts())
     .pipe(gulp.dest('javascript'));
 });
