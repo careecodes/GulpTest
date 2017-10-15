@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 
 // Default and basic tasks
 gulp.task('default', function(){
-    // Give something more informative for default task - list of commands, help, etc?
+    // TODO: automatically loop through all gulp.tasks and output them to the log when gulp is called by the user
     console.log('Welcome to Gulp. Available commands: test, hey');
 });
 
