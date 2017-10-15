@@ -8,4 +8,4 @@ Just learning about Gulp and building my own task manager from scratch. :)
 <a href="https://twitter.com/careecodes">Twitter</a><br/>
 
 ## Resources & Tutorials
-<a hef="https://css-tricks.com/gulp-for-beginners/">Gulp for Beginners (CSS Tricks)</a>
+<a href="https://css-tricks.com/gulp-for-beginners/">Gulp for Beginners (CSS Tricks)</a>
