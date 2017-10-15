@@ -1,13 +1,13 @@
 // ==========================================================================
-// Welcome to Caree's messy, experimental dive into writing Gulp files. 
-// This is a work progress. Watch where you step.
+// Caree's First Gulp File 😎
 // ==========================================================================
 
-
-// Gotta require gulp if you wanna gulp
+// REQUIREMENTS
 var gulp = require('gulp');
 
-// Default task so that the 'gulp' command actually does something.
+// I wonder what happens if your gulp file requires something that the machine does not have installed.
+var sass = require('gulp-sass');
+
 gulp.task('default', function(){
     console.log('Welcome to Gulp. Available commands: test, hey');
 });
@@ -16,6 +16,3 @@ gulp.task('test', function(){
     console.log('Gulp is working');
 });
 
-gulp.task('hey', function(){
-    console.log('ayy');
-});
