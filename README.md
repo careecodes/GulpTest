@@ -4,4 +4,5 @@ Just learning about Gulp and building my own task manager from scratch. :) âœŒğŸ
 ## More About Caree Codes
 <a href="caree.codes">Portfolio</a><br/>
 <a href="https://www.linkedin.com/in/caree-youngman-a87339ab/">LinkedIn</a>
-
+<a href="https://codepen.io/careecodes/">Codepen</a>
+<a href="https://twitter.com/careecodes">Twitter</a>
