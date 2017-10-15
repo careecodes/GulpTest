@@ -14,8 +14,27 @@ var ts = require('gulp-typescript');
 // ==================================================================
 
 gulp.task('default', function(){
-    // TODO: automatically loop through all gulp.tasks and output them to the log when gulp is called by the user
-    console.log('Welcome to Gulp. Available commands: ... ');
+
+// TODO: automatically loop through all gulp.tasks and output them to the log when gulp is called by the user
+
+console.log(' __     __   ______   __       ______   ______   __    __   ______  ');  
+console.log('/\ \  _ \ \ /\  ___\ /\ \     /\  ___\ /\  __ \ /\ "-./  \ /\  ___\ ');
+console.log('\ \ \/ ".\ \\ \  __\ \ \ \____\ \ \____\ \ \/\ \\ \ \-./\ \\ \  __\  '); 
+console.log(' \ \__/".~\_\\ \_____\\ \_____\\ \_____\\ \_____\\ \_\ \ \_\\ \_____\ ');
+console.log(' \/_/   \/_/ \/_____/ \/_____/ \/_____/ \/_____/ \/_/  \/_/ \/_____/ ');
+console.log(' ______  ______                                                       ');
+console.log('/\__  _\/\  __ \                                                      ');
+console.log('\/_/\ \/\ \ \/\ \                                                     ');
+console.log('   \ \_\ \ \_____\                                                    ');
+console.log('    \/_/  \/_____/                                                    ');
+console.log(' ______   __  __   __       ______                                    ');
+console.log('/\  ___\ /\ \/\ \ /\ \     /\  == \                                   ');
+console.log('\ \ \__ \\ \ \_\ \\ \ \____\ \  _-/                                   ');
+console.log(' \ \_____\\ \_____\\ \_____\\ \_\                                     ');
+console.log('  \/_____/ \/_____/ \/_____/ \/_/                                     ');
+                                                                      
+
+
 });
 
 gulp.task('test', function(){
