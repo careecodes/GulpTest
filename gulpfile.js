@@ -15,6 +15,7 @@ gulp.task('test', function(){
 });
 
 gulp.task('compile-sass', function(){
-    console.log('yo dawg');
-    // compile my stuff
+    return gulp.src('sass/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('css'));
 });
