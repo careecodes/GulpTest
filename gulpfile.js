@@ -8,6 +8,13 @@ var sass = require('gulp-sass');
 // https://www.npmjs.com/package/gulp-typescript
 var ts = require('gulp-typescript');
 
+// TODO
+// gulp-plumber
+// gulp notifications
+// native gulp watch;
+// live reload
+// gulp debug -- outputs file names during tasks
+// gulp size -- outputs file size '', works w gulp notify
 
 
 // Default and basic tasks
@@ -31,3 +38,11 @@ gulp.task('compile-ts', function(){
     .pipe(ts())
     .pipe(gulp.dest('javascript'));
 });
+
+
+// OTHER TO DO
+// ts lint
+// convert a js to ts
+// learn python the hard way
+
+// rebuild our gulpfile
